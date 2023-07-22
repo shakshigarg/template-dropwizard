@@ -2,3 +2,4 @@ logging:
   level: INFO
   loggers:
     com.vehicle.service: DEBUG
+bookingStrategy: FCFS

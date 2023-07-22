@@ -1,5 +1,4 @@
 package com.vehicle.service;
-
 import com.vehicle.service.resources.VehicleServiceResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Environment;
@@ -13,7 +12,7 @@ public class VehicleServiceApplication extends Application<VehicleServiceConfigu
 
     @Override
     public void run(VehicleServiceConfiguration vehicleServiceConfiguration, Environment environment) throws Exception {
-        environment.jersey().register(VehicleServiceResource.class);
+        environment.jersey().register(new VehicleServiceResource(vehicleServiceConfiguration.getBookingStrategy()));
     }
 
 }
