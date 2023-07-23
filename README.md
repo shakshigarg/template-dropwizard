@@ -1,6 +1,6 @@
 # template-dropwizard
 
-How to start the vehicle-service application
+How to start the template dropwizard application
 ---
 
 1. Run `mvn clean install` to build your application
