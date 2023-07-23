@@ -1,4 +1,4 @@
-# vehicle-service
+# template-dropwizard
 
 How to start the vehicle-service application
 ---
